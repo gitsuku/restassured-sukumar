@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="sdetPvn3.parseResponse">
+      <class name="sdetPvn4.xmlParse">
         <methods>
-          <include name="responseValWithJsonobject"/>
-          <include name="responseVal"/>
+          <include name="xmlparsetest1"/>
         </methods>
-      </class> <!-- sdetPvn3.parseResponse -->
+      </class> <!-- sdetPvn4.xmlParse -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
