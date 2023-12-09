@@ -9,7 +9,7 @@ import io.restassured.http.Header;
 import io.restassured.http.Headers;
 import io.restassured.response.Response;
 public class headersDemo {
-
+//my comment on 9th dec 2023
 		//@Test(priority = 1)
 		void headerTest(){
 			given()
@@ -31,6 +31,7 @@ public class headersDemo {
 	Headers all	=response.getHeaders();
 	for(Header h : all) {
 		System.out.println(h.getName() +"       "+h.getValue());
+		System.out.printf("printing all headers");
 	}
 		
 		}
